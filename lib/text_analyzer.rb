@@ -14,7 +14,7 @@ class TextAnalyzer
     count_common_words(normalized_words)
   end
 
-  # Use regular expressión to put single words into array, punctation are ignored
+  # Use regular expression to put single words into array, punctation are ignored
   def get_array_of_words(text)
     text.split(/\W+/)
   end
